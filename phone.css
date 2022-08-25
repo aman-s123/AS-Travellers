@@ -1,0 +1,150 @@
+body{
+    background-color: blueviolet;
+}
+
+
+/* #navbar{ */
+    /* flex-direction: column; */
+    /* margin-left: 0%; */
+    /* display: block; */
+/* } */
+
+
+#navel{
+    /* flex-direction: column; */
+    display: inline;
+}
+
+img {
+    height: 77px;
+    display: flex;
+    width: 148px;
+ 
+ 
+ 
+
+}
+#home{
+        padding: 0px 3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 53px;
+        height: 651px;
+        font-family: 'Baloo Bhai 2',
+
+}
+
+#home::before{
+  display: absolute;
+  height: 675px;
+  padding: 62px 2px;
+  
+  
+   
+   
+
+
+}
+#diff{
+padding: 100px 60px;
+padding-bottom: 6px;
+}
+
+ 
+ 
+
+#home p{
+    font-size: 9px;
+    margin: 4px 4px;
+    padding: 3px 2px;
+}
+ul li{
+    margin-left: 23px;
+}
+
+
+#navbar ul li a{
+    margin: 5px 2px;
+    padding: 1px;
+    /* box-sizing: border-box; */
+    font-size: 0.5rem;
+}
+
+.item {
+    display: block;
+    
+}
+ 
+#navbar ul{
+    margin-left: -4px;
+}
+
+
+#services{
+    flex-direction: column;
+    margin-right: 233px;
+}
+#services .box{
+    font-size: 12px;
+    box-sizing: border-box;
+    border: 2px solid brown;
+    margin-top: 133px;
+    height: 250px;
+    margin: 18px;
+    padding: 12px;
+    border-radius: 25px;
+    background-color: rgb(247 181 232 / 45%);
+    
+    }
+    #services .box img{
+        display: block;
+        height: 57px;
+        width: 69px;
+    }
+    #services .box img p{
+        box-sizing: border-box;
+   }
+
+
+
+
+#clients{
+      padding: 0px 22px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    margin: 19px;
+     
+    
+    
+}
+#clients::before {
+    content: "";
+    position: absolute;
+    background: url(panorama-2117310_1920.jpg);
+    margin-top: 166px;
+    margin-bottom: -66px;
+    height: 710px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+#clients img{
+    padding: 2px 2px;
+    width: 50px;
+}
+
+.h-primary{
+    display: block;
+    font-size: 1.7rem;
+     padding: 8px;
+     margin-top: 150px;
+}
+ 
+
+   
+   
+
+
+
